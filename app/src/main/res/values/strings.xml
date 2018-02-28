@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Paddle</string>
+    <string name="titel">Start stirring your paddle!</string>
+    <string name="titel_name">PADDLE</string>
+    <string name="login_text">Choose your username:</string>
+    <string name="avatar">Choose your avatar:</string>
+</resources>

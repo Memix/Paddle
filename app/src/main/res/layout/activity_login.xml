@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.paddle.login"
+    android:id="@+id/scroll">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linear">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text1"
+            style="@style/login_view"/>
+
+            <EditText
+                android:id="@+id/name_input"
+                style="@style/input" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/avatar_text"
+            style="@style/avatar_view"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/paddle2"
+        android:id="@+id/paddle_pic"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+        <Button android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/login_button"/>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
